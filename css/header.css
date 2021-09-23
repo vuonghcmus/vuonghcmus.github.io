@@ -1,0 +1,34 @@
+.logo-nhom img {
+  width: 80px;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 75px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.2px solid black;
+}
+
+.logo-nhom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.members {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+a:hover {
+  color: #3c9d9d;
+}

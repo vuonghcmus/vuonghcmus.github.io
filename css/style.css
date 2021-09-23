@@ -1,0 +1,85 @@
+.content img {
+  width: 100%;
+  height: 50%;
+}
+.intro-members {
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 350px;
+  background-color: #f2f2f2;
+}
+
+.member-item p {
+  font-size: 46px;
+  margin-bottom: 25px;
+  color: rgb(34, 110, 147);
+}
+
+.member-item li {
+  font-size: 26px;
+  margin-left: 25px;
+  color: rgb(34, 110, 147);
+  line-height: 2;
+}
+
+.intro-members img {
+  width: 400px;
+  height: auto;
+  margin-left: 150px;
+}
+
+.slogan {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  background-color: #ffffff;
+}
+
+.slogan img {
+  width: 630px;
+  height: auto;
+  /* margin-right: 80px; */
+}
+
+.slogan .slogan-item p {
+  font-size: 26px;
+  color: rgb(34, 110, 147);
+  line-height: 2;
+  text-align: center;
+}
+
+.slogan .slogan-item .slogan-title {
+  font-size: 46px;
+  color: rgb(34, 110, 147);
+}
+
+.rule {
+  width: 100%;
+  height: 350px;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wrapper li {
+  font-size: 26px;
+  color: rgb(34, 110, 147);
+  margin: 10px 0px 0px 50px;
+  line-height: 2;
+}
+
+.wrapper .rule-title {
+  font-size: 46px;
+  color: rgb(34, 110, 147);
+}
+
+.rule img {
+  width: 254px;
+  height: auto;
+}
