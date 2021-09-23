@@ -1,21 +1,16 @@
 .footer {
   display: flex;
-  height: 100px;
+  height: 75px;
   width: 100%;
-  /* background-color: #ffffff; */
-  background-color: black;
+  background-color: #fff;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  bottom: 0;
+  border: 0.25px solid black;
 }
 
 .footer p {
   color: rgb(34, 110, 147);
   font-size: 26px;
-
-  /* position: absolute; */
-  /* top: 50%; */
-  /* left: 0;
-    right: 0;
-    transform: translateY(-50%); */
-  /* text-align: center; */
 }
