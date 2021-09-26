@@ -1,5 +1,8 @@
-.content img {
-  width: 100%;
+.content > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 72%;
   height: 50%;
 }
 .intro-members {
@@ -40,7 +43,7 @@
   background-color: #ffffff;
 }
 
-.slogan img {
+.content .slogan img {
   width: 630px;
   height: auto;
   /* margin-right: 80px; */

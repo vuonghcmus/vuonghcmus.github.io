@@ -5,10 +5,11 @@
   background-color: #fff;
   align-items: center;
   justify-content: center;
-  border-top: 0.25px solid black;
+  border-top: 0.2px solid black;
 }
 
 .footer p {
   color: rgb(34, 110, 147);
-  font-size: 26px;
+  font-size: 30px;
+  font-weight: bold;
 }
