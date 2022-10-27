@@ -1,71 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nhóm V2Q</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./js/load-file.js"></script>
-</head>
-    <body>
-        <div class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday</title>
+	
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5MSY94H9P9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-5MSY94H9P9');
+    </script>
+	
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="style/loading.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Signika"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet/less" href="script/cake.less" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <script src="script/less.min.js"></script>
+  </head>
+
+  <body>
+    <div class="loading"></div>
+    <audio class="song" controls loop>
+          <source src="music/happy-birthday.mp3"></source>
+      Trình duyệt của bạn không hỗ trợ phát nhạc
+    </audio>
+
+    <div class="container">
+      <div class="row">       
+  
+        <div class="balloons text-center col-2" id="b1">
+          <h2 style="color:#0719D4;">L</h2>
+        </div>
+  
+        <div class="balloons text-center col-2" id="b2">
+            <h2 style="color:#D14D39;">Ệ</h2>
+        </div>
+  
+        <div class="balloons text-center col-2" id="b3">
+            <h2 style="color:#8FAD00;">V</h2>
+        </div>
+  
+        <div class="balloons text-center col-2" id="b4">
+            <h2 style="color:#8377E4;">I</h2>
         </div>
 
-        <div class="content">
-            <map name="the-face">
-                <area shape="rect" coords="150,100,400,660" href="/members/19120729/vy.html" title="Bùi Ngọc Thảo Vy">
-                <area shape="rect" coords="415,165,700,700" href="/members/19120629/quan.html" title="Lê Hồng Quân">
-                <area shape="rect" coords="720,85,990,650" href="/members/19120728/vuong.html" title="Trương Quốc Vương">
-            </map>
+      </div>
+    </div>
+    
 
-            <img src="./images/anh-nhom.png" alt="" usemap="#the-face">
-            
-            <div class="intro-members">
-                <div class="member-item">
-                    <p>Thành viên nhóm</p>
-                    <ol>
-                        <li>Trương Quốc Vương</li>
-                        <li>Bùi Ngọc Thảo Vy</li>
-                        <li>Lê Hồng Quân</li>
-                    </ol>
-                </div>
-                <img src="./images/dong-vat.jpg" alt="">   
-            </div>
+    <img src="img/Balloon-Border.png" width="100%" class="balloon-border" />
 
-            <div class="slogan">
-                <img src="./images/minions.gif" alt="">
-                <div class="slogan-item">
-                    <p class="slogan-title">Slogan</p>
-                    <p>Not now, when?</p>
-                    <p>Not we, who?</p>
-                </div>             
-            </div>
-
-            <div class="rule">
-                <div class="wrapper">
-                    <p class="rule-title">
-                        Nguyên tắc nhóm V2Q
-                    </p>
-                    <ol>
-                        <li>Đề cao cái chung</li>
-                        <li>Lắng nghe suy nghĩ của nhau</li>
-                        <li>Tranh luận thẳng thắng, cởi mở</li>
-                        <li>Không đùn đẩy công việc</li>
-                    </ol>
-                </div>             
-
-                <img src="./images/plane.gif" alt="">
-            </div>
-
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_yellow"></div>
         </div>
-
-        <div class="footer">
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_red"></div>
         </div>
-    </body>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_blue"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_green"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_pink"></div>
+        </div>
+        <div class="col-md-2 col-xs-2 bulb-holder">
+          <div class="bulb" id="bulb_orange"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <img src="img/banner.png" class="bannar" />
+        </div>
+      </div>
+      <div class="row cake-cover">
+        <div class="col-md-12 texr-center">
+          <div class="cake">
+            <div class="velas">
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+              <div class="fuego"></div>
+            </div>
+            <div class="cobertura"></div>
+            <div class="bizcocho"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row message">
+        <div class="col-md-12">
+          <p>Hôm nay 28/10 là ...</p>
+          <p>một ngày đẹp trời như bao ngày khác</p>
+          <p><strong>Tuy nhiên</strong></p>
+          <p>Vi có biết rằng ...?</p>
+          <p>hôm nay là một ngày đặc biệt</p>
+          <p>với em...</p>
+          <p>Vì vậy</p>
+          <p>Hãy tổ chức</p>
+          <p>buổi tiệc sinh nhật hoành tráng nhất</p>
+          <p>và hãy cho anh</p>
+          <p>cùng chia sẻ niềm vui với Vi</p>
+          <p>Anh tạo ra website này</p>
+          <p>như là một món quà dành tặng cho Vi</p>
+          <p>cảm ơn vì em đã xem</p>
+          <p>cảm ơn vì những lần em đã trò chuyện với anh :></p>
+          <p>Anh chúc cho Vi có tất cả những điều tốt đẹp nhất</p>
+          <p>Hy vọng tuổi mới Vi sẽ có thật nhiều sức khỏe</p>
+          <p>Hy vọng cuộc sống của Vi sẽ thật hạnh phúc và thật nhiều niềm vui</p>
+          <p>Hy vọng những điều ước của Vi sẽ thành hiện thực</p>
+          <p>
+            Hy vọng Vi sẽ đạt được nhiều thành công trong công việc và học tập
+          </p>
+          <p>Hy vọng Vi ngày càng xinh đẹp hơn nữa :D</p>
+          <p>Happy Birthday To Lệ Vi !!!</p>
+          <i style="display: block;">This website was made by Vương</i>
+          <i style="display: block;">&copy;vuonghcmus 2022</i>
+        </div>
+      </div>
+      <div class="navbar navbar-fixed-bottom">
+        <div class="row">
+          <div class="col-md-6 text-center col-md-offset-3">
+            <button class="btn btn-primary" id="turn_on">
+              Tối quá bật đèn nào :D
+            </button>
+            <button class="btn btn-primary" id="play">
+              Sáng rồi, Mở nhạc thôi :D
+            </button>
+            <button class="btn btn-primary" id="bannar_coming">
+              Trang trí thôi :3
+            </button>
+            <button class="btn btn-primary" id="balloons_flying">
+              Thả bóng bay ^^
+            </button>
+            <button class="btn btn-primary" id="cake_fadein">
+              Làm Bánh kem :3
+            </button>
+            <button class="btn btn-primary" id="light_candle">
+              Thắp nến :3
+            </button>
+            <button class="btn btn-primary" id="wish_message">
+              Happy Birthday &lt3
+            </button>
+            <button class="btn btn-primary" id="story">
+              Lời chúc của anh ^_^
+            </button>
+            <!-- <button class="btn btn-primary" id="cake_cut">Lrt's Cut the Cake</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="script/effect.js"></script>
 </html>
